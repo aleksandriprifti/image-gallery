@@ -1,0 +1,23 @@
+body{
+	margin: 20px;
+	padding: 0;
+	background: #333;
+}
+
+.container{
+	max-width: 560px;
+	margin: auto;
+	border: #fff solid 3px;
+	background: #fff;
+}
+
+
+.main-img img, .images img{
+	width: 100%;
+}
+
+.images{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+}
